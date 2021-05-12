@@ -8,7 +8,6 @@
 function solution(array, commands) {
   let answer = [];
   for (let s = 0; s < commands.length; s++) {
-    commands.slice([s]);
     let i = commands[s][0] - 1;
     let j = commands[s][1];
     let k = commands[s][2] - 1;
