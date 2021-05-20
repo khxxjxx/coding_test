@@ -1,3 +1,5 @@
+// 나누어 떨어지는 숫자배열
+
 function solution(arr, divisor) {
   const answer = arr
     .filter(number => number % divisor === 0)
