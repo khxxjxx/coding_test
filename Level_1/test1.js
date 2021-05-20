@@ -1,4 +1,5 @@
 // 글자의 가운데 글자 구하기 짝수일경우 두자리 숫자로 구하기
+
 let input = prompt('입력값');
 let half = input.length / 2;
 let result;
