@@ -1,4 +1,3 @@
-// 수박수박수
 // 입력받은 n값큼 수박출력하기
 
 function solution(n) {
