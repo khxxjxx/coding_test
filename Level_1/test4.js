@@ -6,7 +6,7 @@
 const participant = ['mislav', 'stanko', 'mislav', 'ana'];
 const completion = ['stanko', 'ana', 'mislav'];
 return "mislav"
-/*
+*/
 /*
 // 효율성 시간초과
 function solution(participant, completion) {
@@ -18,7 +18,6 @@ function solution(participant, completion) {
     participant.splice(cut, 1);
   }
   answer = participant.toString();
-  
 */
 
 function solution(participant, completion) {
