@@ -1,4 +1,3 @@
-// git commit --amend --no-edit --date "Mon 20 Aug 2018 20:19:19 KST"
 // 평균구하기
 
 function solution2(arr) {
