@@ -1,4 +1,7 @@
 // 기능개발
+// 배포는 하루에 한번만 할 수 있다
+// 기능의 개발속도는 모두 다르기 때문에 뒤에 있는 기능이 앞에 있는 기능보다 먼저 개발될 수 있고
+// 이때 뒤에 있는 기능은 앞에 있는 기능이 배포될 때 함께 배포된다
 
 function solution(progresses, speeds) {
   var answer = [];
@@ -25,7 +28,10 @@ function solution(progresses, speeds) {
   return answer;
 }
 
-const progresses = [95, 90, 99, 99, 80, 99];
-const speeds = [1, 1, 1, 1, 1, 1]; // return [1,3,2]
+// 아래코드는 테스트를 위한 코드입니다.
+const progresses = [95, 90, 99, 99, 80, 99]; // 작업진도
+const speeds = [1, 1, 1, 1, 1, 1]; // 작업속도
+// [5일, 10일, 1일, 1일, 20일, 1일] 소요
+// return [1,3,2]
 
 console.log(solution(progresses, speeds));
