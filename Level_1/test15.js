@@ -12,11 +12,11 @@ function solution(d, budget) {
       answer++;
     }
   }
-  return answer;
 }
 
 // 아래 코드는 테스트를 위한 코드입니다.
 const d = [1, 1, 2, 2, 4]; // 부서별로 신청한 금액
 const budget = 5; // 예산
+// return 3
 
 console.log(solution(d, budget));
