@@ -11,6 +11,7 @@ function solution(n, m) {
       console.log(n2);
     }
   }
+
   for (let i = 1; i <= m; i++) {
     if (m % i === 0) {
       m2.push(i);
