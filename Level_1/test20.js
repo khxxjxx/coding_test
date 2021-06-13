@@ -1,3 +1,5 @@
+// 행렬의 덧샘
+
 function solution(arr1, arr2) {
   let answer = [],
     answer2 = [];
@@ -12,6 +14,7 @@ function solution(arr1, arr2) {
   return answer2;
 }
 
+// 아래코드는 테스트를 위한 코드입니다.
 const arr1 = [
   [1, 2],
   [2, 3],
