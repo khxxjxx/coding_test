@@ -1,8 +1,12 @@
+// 모의고사
+// 문제를 가장 많이 맞춘 학생을 반환
+// 동점자가 있을 경우 오름차순으로 정렬
+
 function solution(answers) {
   const students = [
-    [1, 2, 3, 4, 5],
-    [2, 1, 2, 3, 2, 4, 2, 5],
-    [3, 3, 1, 1, 2, 2, 4, 4, 5, 5],
+    [1, 2, 3, 4, 5], // 1번 수포자가 찍는방식
+    [2, 1, 2, 3, 2, 4, 2, 5], // 2번 수포자가 찍는방식
+    [3, 3, 1, 1, 2, 2, 4, 4, 5, 5], // 3번 수포자가 찍는방식
   ];
   let answer = [],
     cnt = [0, 0, 0];
@@ -18,36 +22,6 @@ function solution(answers) {
 }
 
 // 아래코드는 테스트를 위한 코드입니다.
-const answers = [2, 2, 3, 3, 5, 4];
+const answers = [2, 2, 3, 3, 5, 4]; // 정답
 
 console.log(solution(answers));
-
-function solution2(answers) {
-  const students = [
-    '12345'.repeat(Math.ceil(answers.length / 5)).split(''),
-    '21232425'.repeat(Math.ceil(answers.length / 8)).split(''),
-    '3311224455'.repeat(Math.ceil(answers.length / 10)).split(''),
-  ];
-  let answer = [],
-    result = [];
-  let cnt = 0;
-
-  students.map(x => {
-    for (let i = 0; i < answers.length; i++) {
-      if (answers[i] == x[i]) {
-        cnt++;
-      }
-    }
-    answer.push(cnt);
-    cnt = 0;
-  });
-
-  for (let k = 0; k <= answer.length; k++) {
-    if (Math.max(...answer) === answer[k]) {
-      result.push(k + 1);
-    }
-  }
-  return result;
-}
-
-console.log(solution2(answers));
