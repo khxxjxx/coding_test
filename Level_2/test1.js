@@ -4,7 +4,7 @@
 // 이때 뒤에 있는 기능은 앞에 있는 기능이 배포될 때 함께 배포된다
 
 function solution(progresses, speeds) {
-  var answer = [];
+  let answer = [];
   let days = [];
   let cnt = 0;
 
