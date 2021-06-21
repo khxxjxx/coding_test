@@ -14,6 +14,7 @@ function solution(a, b) {
   return cnt;
 }
 
+// 아래코드는 테스트를 위한 코드입니다.
 const a = [1, 4, 2];
 const b = [5, 4, 4];
 // return 29
