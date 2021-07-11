@@ -1,6 +1,6 @@
 // 카펫
-// 카펫에서 갈색 격자의 수 brown 노란색 격자의 수 yellow
-// yellow의 색상을 brown이 감싸고 있을때 카펫의 가로, 세로 길이를 return 하시오
+// 카펫에서 갈색 격자의 수 brown, 노란색 격자의 수 yellow
+// yellow의 색상을 brown이 감싸고 있을때 카펫의 가로, 세로 길이를 return
 
 const solution = (b, y, sum = b + y) => {
   let i = 3;
