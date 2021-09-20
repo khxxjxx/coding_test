@@ -32,6 +32,7 @@ function solution(s) {
   return s.length - count;
 }
 
+// 아래코드는 테스트를 위한 코드입니다
 const s = '[](){}'; // return 3
 
 console.log(solution(s));
