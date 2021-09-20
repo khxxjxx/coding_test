@@ -1,5 +1,5 @@
 // 소수찾기
-// 흩어진 종이로 만들수 있는 소수의 개수를 구해야한다
+// 흩어진 종이로 만들수 있는 소수의 개수를 구하라
 
 function solution(numbers) {
   const result = [];
