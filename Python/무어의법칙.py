@@ -1,1 +1,0 @@
-print( sum(list(map(int, list(str(2 ** int(input())))))))
